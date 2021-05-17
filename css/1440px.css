@@ -1,0 +1,21 @@
+@media screen and (max-width:1550px) and (min-width:1400px){
+    .agileits-banner-info{
+        height:762px;
+        margin-top: -2px !important;
+    }
+    .banner-right{
+        height: 762px;
+    }
+   .banner-right-info,.agileits-banner-info{
+       margin-top: 50px;
+   }
+   .dropbtn1{
+       margin-top: 80px !important;
+   }
+   .list_of_contacts{
+       width: 470px;
+   }
+   .service p{
+       font-size: 20px;
+   }
+}

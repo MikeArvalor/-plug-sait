@@ -1,5 +1,20 @@
 @media screen and (max-width:400px){
     .agileits-banner-info{
-        width: 380px;
+        width: 400px !important;
     }
+    .banner-right{
+height: 770px;
+    }
+}
+@media screen and (max-width:320px){
+    .banner-right{
+        margin-top: 10px;
+    }
+    .dropbtn1{
+margin-top: 200px !important;
+    }
+    .banner-right{
+        height: 710px;
+            }
+    
 }

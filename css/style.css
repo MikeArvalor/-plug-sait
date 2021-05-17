@@ -18,7 +18,7 @@ body a{
 .h2_nl{
     color: #000 !important;
 }
-.banner-dot {
+.banner-dot{
 	background: url(../images/dott.png)repeat 0px 0px;
     background-size: 3px;
     -webkit-background-size: 3px;
