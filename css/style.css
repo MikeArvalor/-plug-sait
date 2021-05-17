@@ -1,4 +1,6 @@
-
+body{
+    height: 500px;
+}
 
 body a{
 	transition:0.5s all;

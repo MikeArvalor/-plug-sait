@@ -5,31 +5,18 @@
 <title>Kensington Advisors Ltd</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
-
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <script src="js/jquery.min.js"></script>
-<!-- Custom Theme files -->
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <link href="css/index.css" rel='stylesheet' type='text/css' />
-<link rel="stylesheet" href="css/jquery.countdown.css" />
-<!-- font-awesome icons -->
-<link href="css/font-awesome.css" rel="stylesheet"> 
-<!-- //font-awesome icons -->
-<!--fonts--> 
-<link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
-<!--//fonts--> 
-<link rel="stylesheet" href="css/owl.carousel.css" type="text/css" media="all">
-<link href="css/owl.theme.css" rel="stylesheet">
+<link href="css/1024px.css" rel='stylesheet' type='text/css' />
+<link href="css/768px.css" rel='stylesheet' type='text/css' />
+<link href="css/font-awesome.css" rel="stylesheet">  
 <script>
-	/* When the user clicks on the button, 
-	toggle between hiding and showing the dropdown content */
 	function myFunction1() {
 		document.getElementById("myDropdown1").classList.toggle("show");
 		document.getElementById("Dropdown1").classList.toggle("show");
 	}
-	
-	// Close the dropdown if the user clicks outside of it
 	window.onclick = function(event) {
 	  if (!event.target.matches('.dropbtn1')) {
 	
@@ -46,28 +33,19 @@
 	</script>
 </head>
 <body>
-	<!-- banner -->
 	<div class="agileits-banner-info jarallax">
 		<div class="banner-dot">
 			<div class="w3-banner-grids">
 				<div class="col-md-6 w3l-banner-left">
-					
-			
-					<!--newsletter-->
 					<div class="newsletter">
-						
 						<section class="calltoaction1 " id="myDropdown1" >
 							<div class="container" >
-					
 								<div class="row"  >
 									<div class="dropdown1" >
-									<button onclick="myFunction1()" onclick="swa()" class="dropbtn1 " style="margin-left: -490px;"><i class="fa fa-paper-plane" aria-hidden="true" style="padding-right: 20px;"></i>Contact Us</button>
+									<button onclick="myFunction1()" onclick="swa()" class="dropbtn1" style="margin-left: -490px;"><i class="fa fa-paper-plane" aria-hidden="true" style="padding-right: 20px;"></i>Contact Us</button>
 									  <div id="Dropdown1" class="dropdown-content1" >
-										
 										<div class="it" >
 											<div class="container_form"  >
-												
-														
 												<form  id='item'>
 													<div id="overlay">
 													<div class="popup">
@@ -78,11 +56,8 @@
 													  <label for="fname">Your Name</label>
 													</div>
 													<div class="col2">
-													  <input type="text" id="fname" name="firstname" placeholder="Name">
+														<input type="email" name="email" class="input" maxlength="30" placeholder="Email" />
 													</div>
-													
-												 
-													
 													<div class="email_form">
 													  <label for="lname">Email</label>
 													</div>
@@ -90,8 +65,7 @@
 														<input type="email" name="email" class="input" maxlength="30" placeholder="Email" />
 													</div>
 												</div>
-												<div class="country_tel">
-																							 
+												<div class="country_tel">									 
 													<div class="telephone_form">
 													  <label for="lname">Telephone</label>
 													</div>
@@ -104,25 +78,16 @@
 													  <div class="message_form1">
 														<textarea id="subject" name="subject" placeholder="Write text" ></textarea>
 													  </div>
-													
 												</div>
-												
-												
-												  
 													<input type="submit" class="submit_form" value="Submit">
-												  
-											
 													</div>
 												</div>
-												  
 											</form>
 										 </div>
 									</div>
 									</div>
-								
 									  </div>
 									</div>
-					
 								</div>
 							</div>
 						</section>
@@ -146,67 +111,20 @@
 										<ul class="list_of_contacts">
 											<li><i class="fa fa-envelope envelope"></i> Email: info@kensingtonadvisors.co.uk</li>
 											<li><i class="fa fa-phone phone"></i> Telephone: +44 75 68 521 593</li>
-											<li><i class="fa fa-map-marker marker_map"></i>&ensp; Registered Office Address:Office 4, 219 Kensington High Street,<br>&ensp;&ensp;   Kensington, London, England, W8 6BD</li>
+											<li><i class="fa fa-map-marker marker_map"></i>&ensp; Registered Office Address:Office 4, 219 Kensington High Street,Kensington, London, England, W8 6BD</li>
 										</ul>
 									</nav>
 								</div>
-								<!-- /.navbar-collapse -->
+								
 							</nav>
 						</div>
-						
-						
-						<!--//newsletter-->
-				</div>
-				<div class="clearfix"> </div>
+					</div>
 			</div>
 		</div>
 	</div>
 	
-	<script>
-		/* When the user clicks on the button, 
-		toggle between hiding and showing the dropdown content */
-		function myFunction() {
-			document.getElementById("myDropdown").classList.toggle("show");
-			document.getElementById("Dropdown").classList.toggle("show");
-		}
-		
-		// Close the dropdown if the user clicks outside of it
-		window.onclick = function(event) {
-		  if (!event.target.matches('.dropbtn')) {
-		
-			var dropdowns = document.getElementsByClassName("dropdown-content");
-			var i;
-			for (i = 0; i < dropdowns.length; i++) {
-			  var openDropdown = dropdowns[i];
-			  if (openDropdown.classList.contains('show')) {
-				openDropdown.classList.remove('show');
-			  }
-			}
-		  }
-		}
-		</script>
-		   
-    <!-- Scroll to top end-->
-
-	<!-- Javascript files -->
-<script>
-	
-</script>
-<script>
-	var b = document.getElementById('overlay');
-	function swa(){
-		b.style.visibility = 'visible';
-		b.style.opacity = '1';
-		b.style.transition = 'all 0.7s ease-out 0s';
-	}
-	function swa2(){
-		b.style.visibility = 'hidden';
-		b.style.opacity = '0';
-	}
-	</script>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	>
+	
 	<script src="js/main.js"></script>
 </body>
 </html>	
