@@ -25,6 +25,40 @@ body a{
     -ms-background-size: 3px;
     height: 660px;
 }
+.service{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-column-gap: 20px;
+    color: #fff;
+justify-content: center;
+align-items: center;
+    margin: 0 auto;
+}
+
+.service1,.service2,.service3{
+    border: 3px solid rgb(179, 128, 34);
+    height: 90px;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    background: rgba(0, 0, 0, 0.55);
+    
+}
+.service1 p,.service2 p,.service3 p{
+padding: 29px;
+font-size: 14px;
+font-weight: bold;
+}
+.service1:hover,.service2:hover,.service3:hover{
+    border: 3px solid rgb(212, 145, 19);
+}
+.banner-right-info img{
+    width: 320px !important;
+    height: 120px !important;
+    margin-top: -100px;
+    filter: brightness(2.5) !important;
+}
+
 .jarallax {
     position: relative;
     background-size: cover;
@@ -38,6 +72,10 @@ body a{
   color: #fff;
   margin-top: -20px;
   font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 40px;
 
 }
 .list_of_contacts i{
