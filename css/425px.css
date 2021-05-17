@@ -1,0 +1,25 @@
+@media screen and (max-width:500px){
+    .agileits-banner-info{
+        height:1100px;
+    }
+    .banner-right-info{
+        margin-top: 50px;
+    }
+   .service{
+       display: grid;
+
+       grid-template-columns: 150px 150px;
+  
+   }
+   .service3{
+       position: relative;
+       margin: 0 auto;
+       left: 50%;
+       width: 150px;
+     
+   }
+   .list_of_contacts{
+       margin-top: 20px;
+       width: 400px;
+   }
+}
