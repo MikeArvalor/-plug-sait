@@ -8,6 +8,12 @@ height: 770px;
     .submit_form{
         margin-top: 200px !important;
     }
+    .message_form{
+        margin-left: -1px !important;
+    }
+    .message_form1{margin-left: -1px !important;}
+    .telephone_form{margin-left: -20px !important;}
+    .telephone_form1{margin-left: -30px !important;}
 }
 @media screen and (max-width:320px){
     .banner-right{
@@ -22,5 +28,11 @@ margin-top: 200px !important;
             .submit_form{
                 margin-top: 200px !important;
             }
+            .message_form{
+                margin-left: -1px !important;
+            }
+            .message_form1{margin-left: -1px !important;}
+            .telephone_form{margin-left: -20px !important;}
+            .telephone_form1{margin-left: -30px !important;}
     
 }
