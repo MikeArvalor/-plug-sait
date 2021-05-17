@@ -3,7 +3,16 @@
         display: grid;
         grid-template-columns:150px 150px 150px;
     }
-    
-
-    
+    .message_form,.message_form1{
+        margin-top: 150px;margin-left: -1px;
+        }
+    .submit_form{
+        margin-top: 200px;
+    }
+    .message_form1{margin-top: 145px;}
+  
+.message_form{width: 110px !important;}
+    .popup{
+        height: 550px !important;
+    }
 }

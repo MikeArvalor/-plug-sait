@@ -1,4 +1,4 @@
-@media screen and (max-width:500px){
+@media screen and (max-width:550px){
     .agileits-banner-info{
         height:1100px;
     }
@@ -11,6 +11,12 @@
        grid-template-columns: 150px 150px;
   
    }
+   .submit_form{
+    margin-top: 200px !important;
+}
+   .submit_form{
+    margin-top: 200px;
+}
    .service3{
        position: relative;
        margin: 0 auto;
@@ -22,4 +28,20 @@
        margin-top: 20px;
        width: 400px;
    }
+}
+@media screen and (max-width:680px) and (min-width:560px){
+ .agileits-banner-info{
+     width: 690px;
+     
+ }   
+ .banner-right{
+     height: 680px;
+ }
+ .banner-right img{
+     margin-top:-40px;
+     
+ }
+ .submit_form{
+    margin-top: 200px !important;
+}
 }
