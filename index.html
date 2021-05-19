@@ -8,32 +8,17 @@
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <script src="js/jquery.min.js"></script>
 <link href="css/style.css" rel='stylesheet' type='text/css' />
-<link href="css/index.css" rel='stylesheet' type='text/css' />
+
 <link href="css/1024px.css" rel='stylesheet' type='text/css' />
 <link href="css/768px.css" rel='stylesheet' type='text/css' />
 <link href="css/425px.css" rel='stylesheet' type='text/css' />
 <link href="css/375px.css" rel='stylesheet' type='text/css' />
+<link href="css/forma.css" rel='stylesheet' type='text/css' />
 <link href="css/1440px.css" rel='stylesheet' type='text/css' />
 <link href="css/font-awesome.css" rel="stylesheet">  
-<script>
-	function myFunction1() {
-		document.getElementById("myDropdown1").classList.toggle("show");
-		document.getElementById("Dropdown1").classList.toggle("show");
-	}
-	window.onclick = function(event) {
-	  if (!event.target.matches('.dropbtn1')) {
-	
-		var dropdowns = document.getElementsByClassName("dropdown-content1");
-		var i;
-		for (i = 0; i < dropdowns.length; i++) {
-		  var openDropdown = dropdowns[i];
-		  if (openDropdown.classList.contains('show')) {
-			openDropdown.classList.remove('show');
-		  }
-		}
-	  }
-	}
-	</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
 </head>
 <body>
 	<div class="agileits-banner-info jarallax">
@@ -41,61 +26,51 @@
 			<div class="w3-banner-grids">
 				<div class="col-md-6 w3l-banner-left">
 					<div class="newsletter">
-						<section class="calltoaction1 " id="myDropdown1" >
-							<div class="container" >
-								<div class="row"  >
-									<div class="dropdown1" >
-									<button onclick="myFunction1()" onclick="swa()" class="dropbtn1" style="margin-left: -490px;"><i class="fa fa-paper-plane" aria-hidden="true" style="padding-right: 20px;"></i>Contact Us</button>
-									  <div id="Dropdown1" class="dropdown-content1" >
-										<div class="it" >
-											<div class="container_form"  >
-												<form  id='item'>
-													<div id="overlay">
-													<div class="popup">
-																  <button class="close" title="Закрыть окно" onclick="swa2()"></button>
-																  <p class="zag">Contact Us</p>
-																  <div class="orientation">
-													<div class="Name_Email">
-													<div class="col1">
-													  <label for="fname">Your Name</label>
-													</div>
-													<div class="col2">
-														<input type="email" name="email" class="input" maxlength="30" placeholder="Email" />
-													</div>
-													<div class="email_form">
-													  <label for="lname">Email</label>
-													</div>
-													<div class="email_form1">
-														<input type="email" name="email" class="input" maxlength="30" placeholder="Email" />
-													</div>
-												</div>
-												<div class="country_tel">									 
-													<div class="telephone_form">
-													  <label for="lname">Telephone</label>
-													</div>
-													<div class="telephone_form1">
-														<input type="tel" name="tel" class="input" maxlength="30"  placeholder="Number"/>
-													</div>
-													<div class="message_form">
-														<label for="subject">Enter your message:</label>
-													  </div>
-													  <div class="message_form1">
-														<textarea id="subject" name="subject" placeholder="Write text" ></textarea>
-													  </div>
-												</div>
-												</div>
-													<input type="submit" class="submit_form" value="Submit">
-											</div>
-												</div>
-											</form>
-										 </div>
-									</div>
-									</div>
-									  </div>
-									</div>
-								</div>
-							</div>
-						</section>
+						<a href='#' class='modal-btn'>Contact us</a>
+
+<div class='modal'>
+  <div class="close">
+    <span></span>
+    <span></span>
+  </div>
+  <div class='options'>
+ 
+    <a href='#' class='active'>Contatc Us</a>
+  </div>
+  <div class='wrapper'>
+    <div class='content'>
+      <div class='inner'>
+        
+        <div class='side'>
+          <form>
+          
+            <div class='field'>
+              <label for='Sname'>Name</label>
+              <input type='email' id='Sname' />
+            </div>
+            <div class='field'>
+              <label for='Semail'>Email Address</label>
+              <input type='email' id='Semail' />
+            </div>
+            <div class='field'>
+              <label for='Spass'>Telephone</label>
+              <input type='tel' id='Spass' />
+            </div>
+            <div class='field'>
+              <label for='Spass2'>Put your message</label>
+			  <textarea  ></textarea>
+             
+            </div>
+            <div class='field'>
+              <input type='submit' value='Sign Up' />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class='overlay'></div>
 					</div>
 				</div>
 				<div class="col-md-6 banner-right">
@@ -128,8 +103,9 @@
 		</div>
 	</div>
 	
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	
-	<script src="js/main.js"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
 </body>
 </html>	
