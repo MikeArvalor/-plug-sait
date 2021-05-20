@@ -15,4 +15,20 @@
     .popup{
         height: 550px !important;
     }
+    .agileits-banner-info{
+        height: 844px !important;
+    }
+    .banner-right{
+        height: 844px;
+        
+    }
+    .banner-right-info,.service,.agileits-nav{
+        margin-top: 50px;
+    }
+    .modal-btn{
+        margin-top: 80px;
+    }
+.close{
+        margin-left: 80px !important;
+    }
 }

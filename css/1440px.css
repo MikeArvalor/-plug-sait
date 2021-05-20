@@ -1,6 +1,6 @@
 @media screen and (max-width:1550px) and (min-width:1400px){
     .agileits-banner-info{
-        height:762px;
+        height: 844px !important;
         margin-top: -2px !important;
     }
     .banner-right{
@@ -18,4 +18,37 @@
    .service p{
        font-size: 20px;
    }
+    .banner-right{
+        height: 844px;
+        
+    }
+    .banner-right-info,.service,.agileits-nav{
+        margin-top: 50px;
+    }
+    .modal-btn{
+        margin-top: 80px;
+    }
+.close{
+        margin-left: 80px !important;
+    }
+}
+@media screen and (max-width:2660px) {
+
+    .agileits-banner-info{
+        height: 844px !important;
+        margin-top: -2px !important;
+    }
+    .banner-right{
+        height: 844px;
+        
+    }
+    .banner-right-info,.service,.agileits-nav{
+        margin-top: 100px;
+    }
+    .modal-btn{
+        margin-top: 100px;
+    }
+.close{
+        margin-left: 80px !important;
+    }
 }
