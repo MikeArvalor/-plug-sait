@@ -1,13 +1,16 @@
-@media screen and (max-width:1550px) and (min-width:1400px){
+@media screen and (max-width:1550px) and (min-width:1390px){
     .agileits-banner-info{
-        height: 844px !important;
-        margin-top: -2px !important;
+        height: 900px !important;
+        
+        
     }
     .banner-right{
-        height: 762px;
+        height: 900px !important;
+        margin-top: -2px !important;
     }
-   .banner-right-info,.agileits-banner-info{
-       margin-top: 50px;
+    
+   .banner-right-info{
+       margin-top: 80px !important;
    }
    .dropbtn1{
        margin-top: 80px !important;
@@ -26,27 +29,27 @@
         margin-top: 50px;
     }
     .modal-btn{
-        margin-top: 80px;
+        margin-top: 100px;
     }
 .close{
         margin-left: 80px !important;
     }
 }
-@media screen and (max-width:2660px) {
+@media screen and (max-width:2660px) and (min-width:1700px) {
 
     .agileits-banner-info{
-        height: 844px !important;
-        margin-top: -2px !important;
+        height: 870px !important;
+        
     }
     .banner-right{
-        height: 844px;
+        height: 870px;
         
     }
     .banner-right-info,.service,.agileits-nav{
-        margin-top: 100px;
+        margin-top: 130px;
     }
     .modal-btn{
-        margin-top: 100px;
+        margin-top: 150px;
     }
 .close{
         margin-left: 80px !important;

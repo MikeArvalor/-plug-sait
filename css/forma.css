@@ -168,11 +168,7 @@ a.modal-btn:hover {
   justify-content: center;
   align-items: center;
 }
-@media (max-widtH: 640px) {
-  .modal .wrapper .content .inner .side {
-    align-items: flex-start;
-  }
-}
+
 .modal .wrapper .content .inner .side form .field {
   margin: 10px 0;
 }

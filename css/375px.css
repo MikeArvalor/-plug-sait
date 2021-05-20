@@ -1,21 +1,16 @@
-@media screen and (max-width:400px){
-.orientation{
-    display: grid;
 
-}
-.popup{
-    width: 400px !important;
-}
-}
-@media screen and (max-width:320px){
+@media screen and (max-width:400px){
     .banner-right{
         margin-top: 10px;
+    }
+    .agileits-banner-info{
+        height: 1180px !important;
     }
     .dropbtn1{
 margin-top: 200px !important;
     }
     .banner-right{
-        height: 710px;
+        height: 844px !important;
             }
             .submit_form{
                 margin-top: 200px !important;
@@ -26,8 +21,6 @@ margin-top: 200px !important;
             .message_form1{margin-left: -1px !important;}
             .telephone_form{margin-left: -20px !important;}
             .telephone_form1{margin-left: -30px !important;}
-    
-}
-@media screen and (max-width:199px) and (min-width:120px){
+            
     
 }
