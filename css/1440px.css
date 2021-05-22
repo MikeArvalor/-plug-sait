@@ -1,4 +1,4 @@
-@media screen and (max-width:1550px) and (min-width:1367px){
+@media screen and (max-width:1550px) and (min-width:1368px){
     .agileits-banner-info{
         height: 900px !important;
         
@@ -7,6 +7,7 @@
     .banner-right{
         height: 900px !important;
         margin-top: -2px !important;
+        
     }
     
    .banner-right-info{
@@ -33,6 +34,11 @@
     }
 .close{
         margin-left: 80px !important;
+    }
+}
+@media screen and (max-width:1366px) and (min-width:1300px){
+    .banner-right{
+        margin-left: -1px;
     }
 }
 @media screen and (max-width:2660px) and (min-width:1700px) {
