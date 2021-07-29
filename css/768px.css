@@ -9,7 +9,11 @@
     }
     .agileits-banner-info{
  
-        height:1315px  !important;
+        height:1340px  !important;
+    }
+    .title_info{
+font-size: 25px !important;
+margin-left: -120px !important;
     }
     .dropbtn1 i{
 padding-left:15px;
@@ -52,4 +56,24 @@ padding-left:15px;
      margin-left: 50px !important;
  }
  .telephone_form1{margin-left: 30px;}
+ .card_block{
+     margin-left: 60px !important;
+ }
+ .block1, .block2, .block3,.block4,.block5,.block6,.block7,.block8,.block9{
+    width: 320px;
+    height:260px;
+ }
+ .footer_block{
+    grid-template-columns:350px 350px;
+    font-size: 14px;
+    height: 480px;
+ }
+ .footer_block_2 iframe {
+     width: 700px !important;
+ }
+ .card_block{
+     display: grid;
+     grid-template-columns: 400px;
+ }
+ 
 }

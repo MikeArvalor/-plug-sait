@@ -21,8 +21,19 @@
    .service1 p,.service2 p, .service3 p{
        font-size: 16px;
    }
-  
-
+   .footer_block{
+    grid-template-columns:350px;
+    font-size: 14px;
+    height: 480px;
+ }
+   .footer_block_2 iframe {
+    width: 350px !important;
+   
+}
+.footer_block{
+    height: 700px;
+}
+.teat
    .service3{
        position: relative;
        margin: 0 auto;
