@@ -8,7 +8,7 @@
         height: 900px !important;
     }
     .banner-right{
-        height: 1000px !important;
+        height: 900px !important;
         
     }
     .banner-right-info,.service,.agileits-nav{
@@ -17,7 +17,29 @@
     .modal-btn{
         margin-top: 100px;
     }
+    .title_info{
+        font-size: 28px !important;
+        margin-left: -60px !important;
+        
+    }
 .close{
         margin-left: 80px !important;
     }
+    .card_block{
+        display: grid;
+        grid-template-columns: 400px 400px;
+        grid-row-gap:30px;   
+      }
+      .footer_block{
+          
+        grid-template-columns:350px 250px 350px;
+        font-size: 14px;
+      }
+      .footer_list1{
+        display: grid;
+        grid-template-columns: 150px 150px;
+        grid-column-gap: 1px;
+        
+    }
+    
 }
