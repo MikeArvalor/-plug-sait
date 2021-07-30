@@ -51,21 +51,122 @@
        margin-left: 30px !important;
    }
 }
-@media screen and (max-width:680px) and (min-width:560px){
+@media screen and (max-width:680px) {
  .agileits-banner-info{
-     width: 690px;
-     height: 1420px !important;
+     width: 106%;
+     height: 1040px !important;
      
  }   
 
  .banner-right{
-     height: 960px;
+     height: 660px;
  }
  .banner-right img{
      margin-top:-40px;
      
  }
+ .card_block{
+    grid-template-columns: 350px 350px;
+    grid-row-gap:30px;
+
+ }
+ .list_of_contacts{
+     margin-left: 50px;
+ }
+ .footer_block{
+     width: 106%;
+ }
+ .footer_block iframe{
+     width: 650px !important ;
+ }
+ .title_info{
+     font-size: 36px !important;
+     margin-left:20px !important;
+ }
  .submit_form{
     margin-top: 200px !important;
 }
 }
+@media screen and (max-width:660px){
+    .agileits-banner-info{
+        width: 126%;
+        height: 1040px !important;
+        
+    }   
+   
+    .banner-right{
+        height: 660px;
+    }
+    .banner-right img{
+        margin-top:-40px;
+        
+    }
+    .card_block{
+       grid-template-columns: 350px 350px;
+       grid-row-gap:30px;
+       
+   
+    }
+    .block_service{
+        margin-left: 140px !important;
+    }
+    .list_of_contacts{
+        margin-left: 70px;
+    }
+    .footer_block{
+        width: 126%;
+    }
+    .footer_block iframe{
+        width: 650px !important ;
+    }
+    .title_info{
+        font-size: 36px !important;
+        margin-left:70px !important;
+    }
+    .submit_form{
+       margin-top: 200px !important;
+   }
+   }
+   
+   @media screen and (max-width:601px){
+    .agileits-banner-info{
+        width: 126%;
+        height: 1040px !important;
+        
+    }   
+   
+    .banner-right{
+        height: 660px;
+    }
+    .banner-right img{
+        margin-top:-40px;
+        
+    }
+    .card_block{
+       grid-template-columns: 350px 350px;
+       grid-row-gap:30px;
+       
+   
+    }
+    .block_service{
+        margin-left: 140px !important;
+    }
+    .list_of_contacts{
+        margin-left: 70px;
+    }
+    .footer_block{
+        width: 126%;
+    }
+    .footer_block iframe{
+        width: 650px !important ;
+    }
+    .title_info{
+        font-size: 36px !important;
+        margin-left:70px !important;
+    }
+    .submit_form{
+       margin-top: 200px !important;
+   }
+   }
+   
+   
