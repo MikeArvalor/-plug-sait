@@ -1,5 +1,5 @@
 
-@media screen and (min-width:424px) and (max-width:500px){
+@media screen and (min-width:455px) and (max-width:500px){
     .banner-right{
         margin-top: 180px !important;
         width: 100%;
@@ -33,10 +33,10 @@ margin-top: 200px !important;
         width: 152.5%;
     }
     .footer_block_1,.footer_block3{
-        margin-left: -170px;
+        margin-left: -160px;
     }
     .footer_block iframe{
-        margin-left: -170px;
+        margin-left: -160px;
         width:580px !important;
     }
     .banner-right{
@@ -46,4 +46,69 @@ margin-top: 200px !important;
             
             
     
+}
+@media screen and (max-width:426px){
+    .agileits-banner-info{
+        width: 180% !important;
+        height: 1200px !important;
+    }
+  .banner-right{
+      margin-top: 40px;
+      height: 840px !important;
+  }
+  .service{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+.card_block{
+    margin-left: 200px !important;
+}
+.text_head1{
+   width: 400px;
+   margin-left: 40px;
+
+}
+.footer_block{
+    width: 180%;
+}
+.text_head2{
+    width: 600px;
+    margin-left: -80px;
+}
+.footer_block_1,.footer_block3{
+    margin-left: -180px;
+}
+.footer_block iframe{
+    width: 500px !important;
+    margin-left: -180px;
+}
+}
+@media screen and (max-width:376px){
+    .footer_block_1,.footer_block3{
+margin-left: -150px;
+    }
+    .footer_block iframe{
+        margin-left: -150px;
+    }
+    .footer_block{
+        width: 190%;
+    }
+    .card_block{
+        margin-left: 220px !important;
+    }
+    .service{
+        display: grid;
+        grid-template-columns: 150px 150px 150px;
+    }
+    .agileits-banner-info{
+        width: 190% !important;
+    }
+}
+@media screen and (max-width:376px){
+    .agileits-banner-info{
+        width: 220% !important;
+    }
+    .footer_block{
+        width: 220%;
+    }
 }
